@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .father {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 300px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father"></div>
+    <script>
+        var father = document.querySelector('.father');
+        console.log(father.offsetTop);
+        console.log(father.offsetLeft);
+        console.log(father.offsetWidth);
+        console.log(father.offsetHeight);
+        console.log(father.offsetParent);
+    </script>
+</body>
+
+</html>
