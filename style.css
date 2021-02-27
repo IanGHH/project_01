@@ -1,0 +1,22 @@
+body {
+    font-size: 18px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center 40px;
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+em {
+    font-style: normal;
+    color: rgb(255, 0, 255);
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+}

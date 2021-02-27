@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        ul li:first-child {
+            color: pink;
+        }
+        
+        ul li:last-child {
+            color: plum;
+        }
+        
+        ul li:nth-child(odd) {
+            background: gray;
+        }
+        
+        ol li:nth-child(2n+1) {
+            color: pink;
+        }
+        
+        div {
+            width: 300px;
+            height: 300px;
+            background: pink;
+        }
+        
+        div::before {
+            content: '我';
+        }
+        
+        div::after {
+            content: '小组佩奇';
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>我是第1个</li>
+        <li>我是第2个</li>
+        <li>我是第3个</li>
+        <li>我是第4个</li>
+        <li>我是第5个</li>
+        <li>我是第6个</li>
+        <li>我是第7个</li>
+        <li>我是第8个</li>
+        <li>我是第9个</li>
+        <li>我是第10个</li>
+    </ul>
+
+    <ol>
+        <li>我是第1个</li>
+        <li>我是第2个</li>
+        <li>我是第3个</li>
+        <li>我是第4个</li>
+        <li>我是第5个</li>
+        <li>我是第6个</li>
+        <li>我是第7个</li>
+        <li>我是第8个</li>
+        <li>我是第9个</li>
+        <li>我是第10个</li>
+    </ol>
+    <div>是</div>
+</body>
+
+</html>

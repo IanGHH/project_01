@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one>a {
+            color: red;
+            width: 100px;
+            background-color: black;
+            display: block;
+        }
+        
+        input:focus {
+            background-color: red!important;
+        }
+        
+        input:focus {
+            background-color: yellow;
+        }
+        
+        .two {
+            width: 800px;
+            height: 800px;
+            background-image: url(https://img10.360buyimg.com/img/jfs/t1/159353/17/2928/457625/5ffd107fE2b4a7a10/e0ab266497850f64.gif);
+            background-repeat: no-repeat;
+            background-color: rgba(124, 111, 22, .3);
+            background-position: 20px;
+        }
+        
+        img {
+            width: calc(100%-180px);
+            filter: blur(15px);
+            transition: filter 1s, width 1s;
+        }
+        
+        img:hover {
+            filter: blur(0px);
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="two"></div>
+    <div class="one">
+        <a href="">我是</a>
+        <p><a href="">我是</a></p>
+        <input type="text"><input type="text"><input type="text">
+
+        <img src="bg.jpg" alt="">
+    </div>
+</body>
+
+</html>
